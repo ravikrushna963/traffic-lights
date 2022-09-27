@@ -28,6 +28,7 @@ class App extends Component {
     const { color1, color2, color3 } = this.state;
     return (
       <div className="bg-container">
+        <div className="second-container">
         <h1 className="heading1">Traffic Light</h1>
         <div>
           <div className="d-flex flex-row justify-content-center">
@@ -69,6 +70,7 @@ class App extends Component {
             <div></div>
             <div></div>
           </div>
+        </div>
         </div>
       </div>
     );
